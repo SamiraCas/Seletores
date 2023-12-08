@@ -1,6 +1,15 @@
-[required]{
+p [required]{
 border: 2px solid tomato;
 }
 [href="#contato"]{
   border: 2px solid greenyellow;
 }
+
+[href^="#"]{
+  background: tomato;
+}
+
+[href$=".com"]{
+  background: forestgreen;
+}
+
